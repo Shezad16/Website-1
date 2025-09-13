@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cards demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="Favicon.png">
+  </head>
+  <body>
+
+    <!--navbar-->
+    <div class="container-fluid ">
+    <div class="row">
+        <nav class="navbar navbar-expand-lg bg-warning">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+      <img src="logo1.png" alt="Flipkart" width="140px" height="60px
+      ">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <form class="d-flex w-75" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="SignIn.html">Sign In</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="SignUp.html">Sign Up</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <!-- Our changes in drppdown -->
+            <li><a class="dropdown-item" href="#">Grocery</a></li>
+            <li><a class="dropdown-item" href="#">Fashion</a></li>
+            <li><a class="dropdown-item" href="#">Electronics</a></li>
+            <li><a class="dropdown-item" href="#">Home Applicences</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    
+    </div>
+    </div>
+    </nav>
+    </div> <!-- Closing of navbar container & row-->
+    </div>
+
+    <div class="container-fluid mt-2 mb-2">
+      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">ALL</button>
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"      aria-labelledby="offcanvasWithBothOptionsLabel">
+    <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+    <p>Try scrolling the rest of the page to see this option in action.</p>
+  </div>
+</div>
+    </div>
+
+    <!-- Carousel-->
+    <div class="container-fluid">
+    <div class="row">
+       <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="2000">
+      <img src="img1.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="img2.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="img3.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="img4.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    </div>
+    </div>
+
+    <!--Cards Container-->
+   <div class="container mt-5 ">
+    <div class="row">
+
+        <!-- Card 1-->
+    <div class="col-3">
+    <div class="card" style="width: 15rem;">
+    <img src="Shoes.png" class="card-img-top" alt="...">
+    <div class="card-body">
+    <h5 class="card-title">Air Jordan 1 Low</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go Checkit Out</a>
+     </div>
+    </div>
+    </div>
+
+        <!--Card 2-->
+    <div class="col-3">
+    <div class="card" style="width: 15rem;">
+    <img src="Shoes2.png" class="card-img-top" alt="...">
+    <div class="card-body">
+    <h5 class="card-title">Air Jordan 11 Retro</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go Checkit Out</a>
+     </div>
+    </div>
+    </div>
+
+    <!--Card 3-->
+    <div class="col-3">
+    <div class="card" style="width: 14rem;">
+    <img src="Shoes3.png" class="card-img-top" alt="...">
+    <div class="card-body">
+    <h5 class="card-title">Air Jordan 1 Phantom</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go Checkit Out</a>
+     </div>
+    </div>
+    </div>
+
+    <!-- Card 4-->
+     <div class="col-3">
+    <div class="card" style="width: 15rem;">
+    <img src="Shoes4.png" class="card-img-top" alt="...">
+    <div class="card-body">
+    <h5 class="card-title">Air Jordan S1 Low</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go Checkit Out</a>
+     </div>
+    </div>
+    </div>
+
+    </div> <!--Closing of card conatiner & row-->
+   </div>
+
+
+   <!--Footer-->
+    <div class="container-fluid relative-bottom  mt-5 bg-dark text-light p-2">
+    <div class="row">
+
+        <div class="col-lg-2 col-6">
+        <h4>Links</h4>
+        <hr>
+        <h5><a href="#">Home</a><br></h5>
+        <h5><a href="Contact.html">Contact Us</a><br></h5>
+        <h5><a href="#">About</a><br></h5>
+        </div>
+
+        <div class="col-lg-2 col-6">
+        <h4>Connects</h4>
+        <hr>
+        <h4><a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a><br></h4>
+        <h4><a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a><br></h4>
+         <h4><a href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp"></i></a><br></h4>
+        </div>
+    </div> <!-- Closing of footer container & row -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
